@@ -41,6 +41,8 @@ header nav ul li {
 	margin-bottom: 15px;
 }
 
+
+
 header nav ul li a {
 	text-decoration:none;
 	text-transform: capitalize;
@@ -48,6 +50,7 @@ header nav ul li a {
 	color: #1f455a;
 
 }
+
 
 header nav ul li i {
 	color: #fb8a9b;
@@ -387,6 +390,7 @@ margin: 0 auto;
 
 
 .contact {
+	padding-top: 1px; /* annuler la fusion des marges */
 	text-align: center;
 }
 
