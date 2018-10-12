@@ -268,6 +268,121 @@ footer ul li a {
 /* Fin section footer  */
 
 
+/* Début style page mutualise.html */
+
+.mutualise  {
+	padding-top: 75px;
+	text-align: center;
+
+}
+
+.mutualise h2 {
+	font-family: 'Candal', sans-serif;
+	font-size: 2em;
+	color: #1f455a;
+	border:dashed 1px black;
+	width:84%;
+	margin:0 auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: none;
+
+}
+
+.mutualise p {
+
+	width: 84%;
+	margin:60px auto;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.mutualise .conteneur {
+
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: flex-start;
+align-items: stretch;
+align-content: stretch;
+width:84%;
+margin: 0 auto;
+	
+
+}
+
+.mutualise .conteneur article {
+
+	border:dashed 1px black;
+	text-align: center;
+	margin-bottom: 50px;
+
+}
+
+.mutualise .conteneur article h3:first-of-type {
+	background-color: #213e4e;
+	color:white;
+	text-transform: capitalize; 
+	font-family: 'Candal', sans-serif;
+	font-size: 1.2em; 
+	padding-top: 35px;
+	padding-bottom : 35px;
+	width:90%;
+	margin: 30px auto;
+	letter-spacing: 3px;	
+
+
+}
+
+
+.mutualise .conteneur article ul {
+	padding-left: 0;
+}
+
+.mutualise .conteneur article ul li {
+	list-style: circle;
+	width:50%;
+	margin:0  auto ; 
+	padding-left: 0;
+	padding-right: 0;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.mutualise .conteneur article div {
+
+		font-family: 'Candal', sans-serif;
+		font-family: 1.2em;
+		color: #67695e;
+		margin-bottom: 20px;
+
+
+}
+
+
+.mutualise .conteneur article a {
+
+	text-decoration: none;
+	text-transform: capitalize;
+	font-family: 'Candal', sans-serif;
+	font-family: 1.2em;
+	display: block;
+	margin:0 10px;
+	background-color: #fb8b9b;
+	color: white;
+	width:90%;
+	margin: 0 auto;
+	padding:20px;
+	margin-bottom: 10px; 
+
+
+}
+
+
+/* Fin style page mutualise.html */
+
+
 /* style page home en vue desktop  */
 
 @media screen and (min-width: 1025px) {
