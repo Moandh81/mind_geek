@@ -387,7 +387,6 @@ margin: 0 auto;
 
 
 .contact {
-	border:solid 1px red;
 	text-align: center;
 }
 
@@ -417,7 +416,6 @@ margin: 0 auto;
 
 
 .contact .contact-conteneur div  {
-	border:solid 1px red;
 	padding-top: 15px;
 	padding-bottom: 15px; 
 
@@ -449,7 +447,7 @@ margin: 0 auto;
 .contact .contact-conteneur div span  {
 
 		font-family: 'Open Sans', sans-serif;
-		
+
 
 }
 
@@ -532,6 +530,29 @@ margin: 0 auto;
 /* fin style article mutualise en desktop */
 
 
+
+ /*début style page contact*/
+
+
+
+.contact .contact-conteneur {
+		
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+	padding-bottom: 25px;
+
+}
+
+.contact .contact-conteneur div {
+	width: 30%;
+}
+
+
+/* fin style page contact */
 footer ul {
 
 	display: flex;
