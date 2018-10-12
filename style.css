@@ -15,6 +15,7 @@ body {
 header {
 	background-color: #fcfcfc;
 	padding-top: 1px; /* annuler fusion des marges */ 
+	padding-bottom: 1px; /* annuler fusion des marges */
 } 
 
 
@@ -54,3 +55,73 @@ header nav ul li i {
 
 
 /*  Fin Style header */
+
+
+/* début style banner */
+
+
+.banner {
+	text-align:center;
+	background-image: url(img/background.jpg);
+	background-size: cover;
+	background-position: center, center;
+	height:500px;
+	padding-top: 1px; /* annuler fusion des marges */
+
+}
+
+.banner h1 {
+
+	font-family: 'Candal', sans-serif;
+	font-size: 3em;
+	margin-top: 100px;
+	margin-bottom: 50px;
+
+
+}
+
+.banner p {
+
+		font-family: 'Candal', sans-serif;
+		font-size: 2em;
+		width:80%;
+		margin:0 auto;
+		line-height: 2em;
+
+}
+
+.banner h1, .banner p {
+	color:white;
+}
+
+
+
+/* fin style banner */
+
+
+/* Début style section recherche */
+
+.recherche {
+	background-color: #fb8b9b;
+	padding-top: 1px; /* annuler fusion des marges */ 
+	padding-bottom:1px; /* annuler la fusion des marges */  
+}
+
+.recherche h2 {
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	color:#f6c3cc;
+	padding-left: 6%;
+	letter-spacing: 7px;
+
+}
+
+
+/* Fin style section recherche */
+
+
+/* début style section solutions */
+
+
+
+/* Fin style section solutions */
