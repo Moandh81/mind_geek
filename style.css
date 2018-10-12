@@ -57,6 +57,18 @@ header nav ul li i {
 /*  Fin Style header */
 
 
+
+/* début style main */
+
+main {
+	background-color: #fcfcfc;
+}
+
+	
+
+
+/* fin style main */ 
+
 /* début style banner */
 
 
@@ -141,17 +153,18 @@ header nav ul li i {
 
 
 
+
+
 }
 
 
-.solutions .container {
+ .container {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
 	justify-content: flex-start;
 	align-items: stretch;
 	align-content: stretch;
-	border:solid 1px red;
 	text-align: center;
 	width:84%;
 	margin:0 auto;
@@ -168,6 +181,7 @@ header nav ul li i {
 .container article h3 {
 		font-family: 'Candal', sans-serif;
 		font-size: 1.2em;
+		color: #fb8a9b;
 }
 
 .container article p {
@@ -176,3 +190,44 @@ header nav ul li i {
 
 }
 /* Fin style section solutions */
+
+
+/* Début section style d'hébergemment */
+
+
+
+.hosting_style {
+	text-align: center;
+}
+
+.hosting_style h2 {
+
+	font-family: 'Candal', sans-serif;
+	font-size: 1.8em;
+	border:solid 1px blue;
+	width:84%;
+	margin: 20px auto ;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border: dashed 1px black;
+	border-bottom: none;
+	color: #fb8a9b;
+}
+
+
+.hosting_style .container article h3 {
+		color: #fb8a9b;
+}
+
+
+.hosting_style .container div {
+		font-family: 'Open Sans', sans-serif;
+		color: #fb8a9b;
+		font-weight: bold;
+
+
+
+}
+
+
+/* Fin section style d'hébergement */
