@@ -270,3 +270,49 @@ footer ul li a {
 /* Fin section footer  */
 
 
+/* style page home en vue desktop  */
+
+@media screen and (min-width: 1025px) {
+
+	header {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	header img {
+		display:inline;
+		margin: -10px 0;
+
+
+	}
+
+	header nav {
+		width:80%;
+		display: inline-block;
+		vertical-align: top;
+		margin-left:50px;
+		
+	}
+
+	header nav ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+	padding-left: 0px;
+	}
+
+
+header nav ul li {
+	border:solid 1px red;
+}
+
+header nav ul li a {
+	border:solid 1px blue;
+}
+
+} 
+
+/*  Fin style page home en vue desktop  */
