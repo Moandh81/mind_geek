@@ -231,3 +231,42 @@ main {
 
 
 /* Fin section style d'hébergement */
+
+
+/* Début section footer  */
+
+
+footer {
+	background-color: #213e4e;
+	padding-bottom:20px; ;
+	padding-top:20px;
+}
+
+footer ul {
+	padding-left: 0;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+footer ul li {
+	list-style: none;
+	margin-bottom: 25px;
+}
+
+footer ul li a {
+
+	color:white;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-family: 'Candal', sans-serif;
+
+}
+
+/* Fin section footer  */
+
+
