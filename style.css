@@ -122,6 +122,57 @@ header nav ul li i {
 
 /* début style section solutions */
 
+.solutions {
+	padding-top: 1px; /* annuler fusion des marges */
+	text-align: center;
+}
+
+.solutions h2 {
+
+	font-family: 'Candal', sans-serif;
+	font-size: 1.8em;
+	border:solid 1px blue;
+	width:84%;
+	margin: 20px auto ;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border: dashed 1px black;
+	border-bottom: none;
 
 
+
+}
+
+
+.solutions .container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+	border:solid 1px red;
+	text-align: center;
+	width:84%;
+	margin:0 auto;
+}
+
+.container article {
+	margin-bottom: 30px;
+}
+
+.container article i {
+	color: #fb8b9b;
+}
+
+.container article h3 {
+		font-family: 'Candal', sans-serif;
+		font-size: 1.2em;
+}
+
+.container article p {
+		font-family: 'Open Sans', sans-serif;
+		text-align: left;
+
+}
 /* Fin style section solutions */
