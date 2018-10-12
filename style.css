@@ -447,7 +447,17 @@ margin: 0 auto;
 
 
 
-/* début style article mutualise en desktop */
+.mutualise .conteneur article ul li {
+	margin-bottom: 20px;
+}
+
+.mutualise .conteneur article div {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+/* fin style article mutualise en desktop */
 
 
 footer ul {
