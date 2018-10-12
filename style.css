@@ -274,6 +274,8 @@ footer ul li a {
 
 @media screen and (min-width: 1025px) {
 
+/* Début style menu desktop */
+
 	header {
 		padding-top: 50px;
 		padding-bottom: 50px;
@@ -312,6 +314,27 @@ header nav ul li {
 header nav ul li a {
 	border:solid 1px blue;
 }
+
+
+/* Fin style menu desktop */
+
+
+
+footer ul {
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+/*  Début style footer desktop */
+
+
+/* Fin style footer desktop */
+
 
 } 
 
