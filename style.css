@@ -383,6 +383,78 @@ margin: 0 auto;
 /* Fin style page mutualise.html */
 
 
+/* Début style page contact.html */
+
+
+.contact {
+	border:solid 1px red;
+	text-align: center;
+}
+
+.contact h2 {
+	width:90%;
+	margin: 75px auto;
+	font-family: 'Candal', sans-serif;
+	font-size: 1.8em;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border:dashed 1px black;
+	border-bottom: none;
+	color: #1c4245;
+}
+
+.contact .contact-conteneur {
+	width: 90%;
+	margin:  0 auto;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch; 
+
+}
+
+
+.contact .contact-conteneur div  {
+	border:solid 1px red;
+	padding-top: 15px;
+	padding-bottom: 15px; 
+
+}
+
+.contact .contact-conteneur div hr {
+
+	border:dashed 1px #fa8b9b;
+	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+
+.contact .contact-conteneur div i {
+	color: #fa8b9b;
+}
+
+.contact .contact-conteneur div a {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	color: #fa8b9b; 
+
+
+}
+
+
+.contact .contact-conteneur div span  {
+
+		font-family: 'Open Sans', sans-serif;
+		
+
+}
+
+/* Fin style page contact.html */
+
 /* style page home en vue desktop  */
 
 @media screen and (min-width: 1025px) {
