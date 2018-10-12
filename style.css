@@ -426,6 +426,29 @@ margin: 0 auto;
 /* Fin style menu desktop */
 
 
+ /* début style article mutualise en desktop */
+
+
+.mutualise .conteneur {
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;	
+	margin-bottom: 40px;
+
+}
+
+.mutualise .conteneur article {
+	margin:1%;
+}
+
+
+
+/* début style article mutualise en desktop */
+
 
 footer ul {
 
